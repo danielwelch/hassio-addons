@@ -3,7 +3,7 @@
   "version": "0.1",
   "slug": "dropbox_sync",
   "description": "Dropbox Sync",
-  "url": "https://github.com/danielwelch/hassio-addons/dropbox-sync",
+  "url": "https://github.com/danielwelch/hassio-addons/tree/master/dropbox-sync",
   "startup": "before",
   "boot": "auto",
   "map": ["backup"],
@@ -14,5 +14,6 @@
   "schema": {
     "oauth_access_token": "str",
     "output": "str?"
-  }
+  },
+  "image": "dwelch2101/dropbox-sync-{arch}"
 }
