@@ -1,6 +1,6 @@
 {
   "name": "Dropbox Sync",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "slug": "dropbox_sync",
   "description": "Upload your Hass.io backups to Dropbox",
   "url": "https://github.com/danielwelch/hassio-dropbox-sync",
@@ -16,7 +16,7 @@
   "schema": {
     "oauth_access_token": "str",
     "output": "str",
-    "keep_last": "int(0,)"
+    "keep_last": "int(0,)?"
   },
   "image": "dwelch2101/dropbox-sync-{arch}"
 }
